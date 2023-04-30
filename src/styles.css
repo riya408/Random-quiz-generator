@@ -1,0 +1,32 @@
+.card {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card button:hover {
+  background-color: #005ea6;
+}
+h1 {
+  text-decoration: underline;
+}
